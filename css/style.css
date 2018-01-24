@@ -1,0 +1,286 @@
+* {
+	margin: 0;
+	padding: 0;
+	
+}
+a{
+	text-decoration: none;
+}
+/********************选择start***********************/
+.wall {
+	background: #fafafc;
+	width: 100%;
+	height: auto;
+}
+
+.wheader {
+    width: 100%;
+	height: 44px;
+	line-height: 44px;
+	font-size: 17px;
+	background: #fcfcfc;
+	color: #3e6ba7;
+	text-align: center;
+	font-family: "microsoft yahei";
+}
+
+.whr {
+	width: 100%;
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.wage {
+	width: 320px;
+	height: 20px;
+}
+
+.wage h3 {
+	font-size: 16px;
+	color: #222222;
+	line-height: 20px;
+	text-align: left;
+	margin-top: 41px;
+	margin-left: 28px;
+	margin-right: 27px;
+}
+
+.wborder {
+	width: 345px;
+	height: 44px;
+	line-height: 44px;
+	background: #fff;
+	border: 1px solid;
+	border-radius: 4px;
+	margin: 40px 15px 0 15px;
+}
+
+.wborder span {
+	width: 71px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #222;
+	padding-left: 26px;
+}
+
+.wlist {
+	width: 345px;
+	height: 44px;
+	line-height: 44px;
+	background: #74b5f0;
+	border: 1px solid;
+	border-radius: 4px;
+	margin: 10px 15px 0 15px;
+}
+.wlist span{
+	width: 72px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #222;
+	padding-left: 26px;
+}
+/************************选择end**************************/
+
+/************************账户start**************************/
+li{
+	list-style: none;
+}
+.wmy{
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	background: #3E6BA7;
+	font-family: "microsoft yahei";
+}
+.wmain{
+	font-size: 17px;
+	color: #fff;
+	text-align: center;
+	border-bottom:1px solid #3E6BA7;
+}
+.wproperty{
+	width: 100%;
+	height: 190px;
+	text-align: center;
+	background: #3E6BA7;
+	font-family:"microsoft yahei";
+	margin-bottom: 10px;
+}
+.wsum{
+	width: 111px;
+	height: 12px;
+	font-size:12px;
+	color:#ffffff;
+	text-align:left;
+	padding:0px 116px 0px 148px;
+	margin-top: 32px;
+	display: inline-block;
+}
+.wsum img{
+	width: 20px;
+	height: 9px;
+	padding-left: 11px;
+}
+.wasterisk{
+	height: 36px;
+	font-size:36px;
+	color:#ffffff;
+	line-height:36px;
+	margin: 15px 134px 55px 133px;
+}
+.wfigure{
+	height: 36px;
+	font-size:36px;
+	color:#ffffff;
+	line-height:36px;
+	margin: 15px 108px 55px 108px;
+}
+.wearnings{
+	width: 155px;
+	height: 20px;
+	font-size:12px;
+	color:#fff;
+	text-align: center;
+	display: inline-block;
+}
+.wearnings span{
+	width: 60px;
+	height: 20px;
+	line-height: 20px;
+	background: #ff6331;
+	border-radius: 2px;
+	margin-left: 11px;
+	color:#fff;
+	font-size: 14px;
+	display: inline-block;
+}
+.wcolor{
+	background:#ffffff;
+	box-shadow:0px 0px 0px 0px #d9d9d9, inset 0px 0px 0px 0px #d9d9d9;
+	width:375px;
+	height:64px;
+	box-sizing: border-box;
+	padding-top: 1px;
+	font-family: "microsoft yahei";
+}
+.worange{
+	background:#ffb25f;
+	border-radius:2px;
+	width:32px;
+	height:32px;
+	line-height: 32px;
+	margin: 16px 15px;
+	text-align: center;
+	float: left;
+}
+.worange img{
+	width:18px;
+	height:15px;
+}
+.wunit{
+	font-size:14px;
+	color:#222222;
+	line-height:14px;
+	text-align:left;
+	padding:15px 0;
+}
+.wrecord{
+	font-size:14px;
+	color:#222222;
+	line-height:14px;
+	text-align:left;
+	padding-top: 25px;
+}
+.wsix{
+	font-size:12px;
+	color:#666666;
+	line-height:12px;
+	text-align:left;
+}
+.wright{
+	width:8px;
+	height:13px;
+	line-height: 13px;
+	float: right;
+	margin: -15px 15px 0 0;
+}
+.wgreen{
+	background:#63d18a;
+	border-radius:2px;
+	width:32px;
+	height:32px;
+	line-height: 32px;
+	margin: 16px 15px;
+	text-align: center;
+	float: left;
+}
+.wgreen img{
+	width:18px;
+	height:15px;
+}
+.wred{
+	background:#ff8282;
+	border-radius:2px;
+	width:32px;
+	height:32px;
+	line-height: 32px;
+	margin: 16px 15px;
+	text-align: center;
+	float: left;
+}
+.wred img{
+	width:18px;
+	height:15px;
+}
+/*****************************account end**************************/
+
+/*****************************details start**************************/
+.wphoto{
+	width: 100%;
+	height: 152px;
+	text-align: center;
+	margin-bottom: 10px;
+	box-shadow:0px 0px 0px 0px #d9d9d9;
+}
+.wgarden{
+	height: 128px;
+}
+.wgarden img{
+	width:88px;
+	height:88px;
+	border-radius:100%;
+	margin: 14px 144px 0 142px;
+}
+.wphone{
+	height: 14px;
+	font-size:14px;
+	color:#666666;
+	line-height:14px;
+	text-align:center;
+	margin:0px 146px 14px 147px;
+}
+.wempty{
+	width: 100%;
+	height: 10px;
+	border: 1px solid #d9d9d9;
+}
+.wtd{
+	background:#ffffff;
+	border:1px solid #d9d9d9;
+	border-top: none;
+	width:100%;
+	height:44px;
+	line-height: 44px;
+}
+.wtd img{
+	margin: 14px 16px;
+}
+.widentity{
+	font-size:14px;
+	color:#222222;
+	line-height:14px;
+	text-align:left;
+	font-family: "microsoft yahei";
+	
+}
