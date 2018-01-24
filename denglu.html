@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- 引入样式 -->
+  <link rel="stylesheet" href="https://unpkg.com/mint-ui/lib/style.css">
+  <script src="js/vue-2.5.js" type="text/javascript" charset="utf-8"></script>
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<meta name="viewport" content="width=375">
+		<link rel="stylesheet" type="text/css" href="css/lhm.css"/>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+   
+
+</style>
+</head>
+<body>
+  <div id="app">
+  	<div class="l-box">
+  	<div class="login_header">
+    <mt-header title="登录" class="lhaer" >
+  <router-link to="/" slot="left">
+    <mt-button icon="back"></mt-button>
+  </router-link>
+  <mt-button slot="right"><a href="zuc.html">注册</a></mt-button>
+</mt-header>
+</div>
+
+<form action="" class="login_form">
+			<div class="login_inp1 lmt10">
+				<i class="login_img"><img src="img/2.png" alt="" /></i>
+				<input type="text" name="" id="" value="" placeholder="请输入手机号" class="login_inpe" />
+			</div>
+			<div class="login_inp1 lbr-bom">
+						<i class="login_img"><img src="img/1.png" alt="" /></i>
+				<input type="password" name="" id="" value="" placeholder="请输入密码" class="login_inpe"/>
+			</div>		
+			<mt-button size="large">登录</mt-button>
+			<div class="login_last"><span>忘记密码？</span></div>
+		</form>
+  </div></div>
+</body>
+  <!-- 先引入 Vue -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+  <!-- 引入组件库 -->
+  <script src="https://unpkg.com/mint-ui/lib/index.js"></script>
+  <script>
+    new Vue({
+      el: '#app',
+      methods: {
+        handleClick: function() {
+     
+        }
+      }
+    })
+  </script>
+</html>
